@@ -113,7 +113,7 @@
   const normalizePage = pathname => pathname.replace(/\.html$/, '').replace(/\/$/, '').replace(/^\/index$/, '') || '/';
   const path = normalizePage(location.pathname);
   nav.querySelectorAll('a').forEach(link => {
-    const section = ['/somahub', '/khamis-computers', '/halaal-charitable-trust'].includes(path) ? '/work' : path === '/services' ? '/about' : path;
+    const section = ['/somahub', '/khamis-computers', '/halaal-charitable-trust', '/school-system'].includes(path) ? '/work' : path === '/services' ? '/about' : path;
     if (normalizePage(link.pathname) === section) link.setAttribute('aria-current', 'page');
   });
   const main = document.querySelector('main');

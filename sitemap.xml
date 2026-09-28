@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://muhammadmussa.vercel.app/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
+  <url><loc>https://muhammadmussa.vercel.app/</loc></url>
+  <url><loc>https://muhammadmussa.vercel.app/services</loc></url>
+  <url><loc>https://muhammadmussa.vercel.app/somahub</loc></url>
+  <url><loc>https://muhammadmussa.vercel.app/khamis-computers</loc></url>
+  <url><loc>https://muhammadmussa.vercel.app/halaal-charitable-trust</loc></url>
+<url><loc>https://muhammadmussa.vercel.app/work</loc></url><url><loc>https://muhammadmussa.vercel.app/about</loc></url><url><loc>https://muhammadmussa.vercel.app/contact</loc></url></urlset>

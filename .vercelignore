@@ -4,4 +4,7 @@
 .codex
 scripts/
 tests/
+docs/
 README.md
+assets/img/
+assets/og-image.html

@@ -125,7 +125,7 @@
     footer.inert = open;
     toggle.inert = open;
     document.querySelector('.brand').inert = open;
-    document.querySelector('.social-link').inert = open;
+    document.querySelector('.header-actions').inert = open;
     if (open) nav.querySelector('a').focus();
   }
   new MutationObserver(syncMenu).observe(burger, { attributes: true, attributeFilter: ['aria-expanded'] });

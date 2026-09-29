@@ -382,3 +382,13 @@ body { font-size:clamp(13px,.875vw,17px); line-height:1.286; }
 }
 .motion-paused .split-note { opacity:1; clip-path:none; }
 @media(prefers-reduced-motion:reduce) { .motion-ready .split-note { opacity:1; clip-path:none; } }
+
+/* Header actions cluster: GitHub link + HIRE ME resume download. */
+.header-actions { display:flex; align-items:center; gap:16px; margin-left:auto; }
+.header-actions .social-link { margin-right:0; }
+.hire-link { font-size:12px; text-transform:uppercase; white-space:nowrap; }
+@media(max-width:600px) {
+ .header-actions { gap:13px; margin-right:22px; }
+ .hire-link { font-size:10px; }
+}
+[data-page=about] .about-copy .text-link { margin-right:25px; margin-bottom:14px; }

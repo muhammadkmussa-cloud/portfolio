@@ -26,7 +26,7 @@
 // A new local URL on each navigation keeps Live Server from returning an old stylesheet.
 window.portfolioAssetVersion = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
   ? Date.now().toString(36)
-  : '20260928-portfolio-1';
+  : '20260929-hire-1';
 for (const file of ['styles.css', 'premium.css', 'fidelity.css']) {
   document.write(`<link rel="stylesheet" href="/${file}?v=${window.portfolioAssetVersion}">`);
 }
